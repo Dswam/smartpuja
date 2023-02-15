@@ -2,9 +2,10 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "../csscomponent/navbar.css";
 import logo from "../image/favicon.ico"
-
-
-
+import { AiOutlineSearch } from 'react-icons/ai';
+import { IoCallSharp } from 'react-icons/io5';
+import wp from "../image/whatsapp.png"
+import cart from "../image/cart.png"
 const Navbar = () => {
     const [click, setClick] = React.useState(false);
     const handleClick = () => setClick(!click);
@@ -92,7 +93,7 @@ const Navbar = () => {
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
                             >
-                                search
+                                <AiOutlineSearch/>
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -103,7 +104,7 @@ const Navbar = () => {
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
                             >
-                                call
+                             <IoCallSharp/>
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -114,7 +115,7 @@ const Navbar = () => {
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
                             >
-                                whatsapp
+                                <img src={wp} alt="wp" style={{ height: "35px"}} />
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -125,7 +126,7 @@ const Navbar = () => {
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
                             >
-                                sign in
+                                signIn
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -136,7 +137,7 @@ const Navbar = () => {
                                 className="nav-links"
                                 onClick={click ? handleClick : null}
                             >
-                                cart
+                                 <img src={cart} alt="wp" style={{ height: "35px" }} /> 
                             </NavLink>
                         </li>
                     </ul>

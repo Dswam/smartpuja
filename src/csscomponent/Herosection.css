@@ -1,0 +1,85 @@
+.banner-images {
+    min-height: 120vh;
+    background-image: url(../image/baneer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding-bottom: 120px;
+    font-size: 27px;
+}
+
+.homecontainer{
+    padding-top: 15rem;
+}
+.homecol>h1{
+    color: white;
+    font-family: 'Georama',sansderif;
+    font-weight: bold;
+}
+.homecol>p{
+    color: #677294;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.homecol>button{
+    background: white;
+    width: 229px;
+    border: none;
+    height: 70px;
+    border-radius: 11px;
+    color: gold;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.formContainer{
+    height:63vh;
+    width: 80%;
+    background:rgba(255,255,255, 0.3);
+    margin-left: auto;
+    border-radius: 13px;
+}
+.formContainer>p{
+
+    font-size: 25px; 
+    width: 427px;
+    padding-top: 33px;
+    padding-left: 41px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formcl>input{
+    width: 27rem;
+    height: 5rem;
+    margin-left: 2.7rem;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.formcl>button{
+    width: 27rem;
+    height: 4rem;
+    margin-left: 2.7rem;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background: goldenrod;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* ************************************** */
+@media (max-width:576px){
+    .formContainer {
+        margin-top: 27px;
+         margin-left:0; 
+         width: 100%;
+         height: 100%;
+     
+    }
+}
