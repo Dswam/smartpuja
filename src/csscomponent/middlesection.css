@@ -1,0 +1,26 @@
+.midcon{
+    margin-top: 5rem;
+}
+
+.MIDCOL{
+    background: rgb(253, 253, 192,0.3);
+    width:25%;
+    margin-left:auto ;
+    margin-right: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.MIDCOL>img{
+    width: 50%;
+    margin-left: 81px;
+    margin-top: 41px;
+}
+.MIDCOL>h1{
+    text-align: center;
+    margin-top: -52px;
+}
+
+.MIDCOL>p{
+    text-align: center;
+    padding-bottom: 20px;
+}

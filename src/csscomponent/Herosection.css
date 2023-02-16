@@ -8,20 +8,23 @@
     font-size: 27px;
 }
 
-.homecontainer{
+.homecontainer {
     padding-top: 15rem;
 }
-.homecol>h1{
+
+.homecol>h1 {
     color: white;
-    font-family: 'Georama',sansderif;
+    font-family: 'Georama', sansderif;
     font-weight: bold;
 }
-.homecol>p{
+
+.homecol>p {
     color: #677294;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
-.homecol>button{
+
+.homecol>button {
     background: white;
     width: 229px;
     border: none;
@@ -33,16 +36,18 @@
     font-weight: bold;
 }
 
-.formContainer{
-    height:63vh;
+.formContainer {
+    height: 100%;
     width: 80%;
-    background:rgba(255,255,255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
     margin-left: auto;
+    padding-bottom: 18px;
     border-radius: 13px;
 }
-.formContainer>p{
 
-    font-size: 25px; 
+.formContainer>p {
+
+    font-size: 25px;
     width: 427px;
     padding-top: 33px;
     padding-left: 41px;
@@ -51,14 +56,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.formcl>input{
+.formcl>input {
     width: 27rem;
     height: 5rem;
     margin-left: 2.7rem;
     margin-right: auto;
     margin-bottom: 10px;
 }
-.formcl>button{
+
+.formcl>button {
     width: 27rem;
     height: 4rem;
     margin-left: 2.7rem;
@@ -74,12 +80,20 @@
 }
 
 /* ************************************** */
-@media (max-width:576px){
+@media (max-width:600px) {
     .formContainer {
         margin-top: 27px;
-         margin-left:0; 
-         width: 100%;
-         height: 100%;
-     
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .formcl>input {
+        margin-left: auto;
+    }
+    .formcl>button{
+        margin-left: 15px;
+
     }
 }
