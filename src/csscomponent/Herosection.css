@@ -86,14 +86,13 @@
         margin-left: 0;
         width: 100%;
         height: 100%;
-
     }
 
     .formcl>input {
         margin-left: auto;
     }
-    .formcl>button{
-        margin-left: 15px;
+    /* .formcl>button{
+        margin-left:8px;
 
-    }
+    } */
 }

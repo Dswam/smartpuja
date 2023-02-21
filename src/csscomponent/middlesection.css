@@ -24,3 +24,11 @@
     text-align: center;
     padding-bottom: 20px;
 }
+
+@media(max-width:600px){
+
+    .MIDCOL{
+        width: 100%;
+        margin-bottom:3rem
+    }
+}

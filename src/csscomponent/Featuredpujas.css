@@ -1,0 +1,12 @@
+.featuredcol1{
+   text-align: center;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+.featuredcolStyle>img{
+    border: 4px solid maroon;
+    border-radius: 69px;
+}
+.featuredrowstyle{
+    justify-content: space-around;
+}
